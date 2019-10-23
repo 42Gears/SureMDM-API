@@ -478,3 +478,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/Code Samples/JAVA/.metadata
