@@ -41,6 +41,7 @@ namespace GetQRCode
             Console.ReadKey();
         }
 
+        // methos to get QRCode
         private static string GetQRCodeImage(string groupName)
         {
             // API URL
@@ -64,6 +65,7 @@ namespace GetQRCode
             return null;
         }
 
+        // method to get group ID
         static string GetGroupID(string GroupName)
         {
             // For home group no need to get groupID

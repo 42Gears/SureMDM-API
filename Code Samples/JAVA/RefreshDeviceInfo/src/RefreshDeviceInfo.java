@@ -15,10 +15,10 @@ public class RefreshDeviceInfo
 
     public class Constants
     {
-	static final String baseURL = "https://suremdm.42gears.com";
-	static final String username = "username";
-	static final String password = "Password";
-	static final String apikey = "Your ApiKey";
+	static final String baseURL = "https://suremdm.42gears.com/api"; // Your SureMDM domain
+	static final String username = "username"; // Your SureMDM username
+	static final String password = "Password"; // Your SureMDM password
+	static final String apikey = "Your ApiKey"; // Your SureMDM apikey
     }
 
     public static void main(String[] args) throws Exception
