@@ -1,3 +1,4 @@
+
 // Description: Program for applying job on the device using SureMDM apis.
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -14,10 +15,10 @@ public class ApplyJob
 
     public class Constants
     {
-	static final String baseURL = "https://suremdm42.42gears.com";
-	static final String username = "sa";
-	static final String password = "sa";
-	static final String apikey = "DA52E108-410A-45EE-92F4-4776D4D521A6";
+	static final String baseURL = "https://suremdm.42gears.com/api"; // Your SureMDM domain
+	static final String username = "username"; // Your SureMDM username
+	static final String password = "Password"; // Your SureMDM password
+	static final String apikey = "Your ApiKey"; // Your SureMDM apikey
     }
 
     public static void main(String[] args) throws Exception

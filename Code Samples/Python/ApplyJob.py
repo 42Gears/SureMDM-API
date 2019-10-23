@@ -102,7 +102,7 @@ def GetJobID(jobName,folderName):
 def ApplyJob(deviceID,jobID):
     
     # URI of the api
-    URI = BaseURL+"/api/jobassignment"
+    URI = BaseURL+"/api/jobassignment" 
     # Headers
     headers = {
         # Api-Key header
