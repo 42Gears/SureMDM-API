@@ -1,3 +1,5 @@
+# Description: Get job queue details of the device using SureMDM apis.
+
 import requests,json
 
 baseurl="https://suremdm.42gears.com/api"  # BaseURL of SureMDM
