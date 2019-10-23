@@ -13,7 +13,7 @@ namespace ReapplyJob
 {
     static class Constants
     {
-        public const string BaseURL = "https://suremdm.42gears.com";  // Your SureMDM domain
+        public const string BaseURL = "https://suremdm.42gears.com/api";  // Your SureMDM domain
         public const string Username = "Username"; // Your SureMDM username
         public const string Password = "Password"; // Your SureMDM password
         public const string ApiKey = "Your ApiKey"; // Your SureMDM apikey
