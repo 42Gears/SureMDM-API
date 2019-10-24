@@ -21,7 +21,7 @@ public class ReapplyJob
 
     public static void main(String[] args) throws Exception
     {
-	String deviceName = "device 1"; // Name of the device
+	String deviceName = "device 1"; // Name of the device 
 	String DeviceID = GetDeviceID(deviceName);
 	if (DeviceID != null)
 	{

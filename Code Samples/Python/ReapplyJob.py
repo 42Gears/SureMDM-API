@@ -87,7 +87,7 @@ def JobQueue(deviceID,bShowAll):
         return 'Failed'
 
 # Main starts
-deviceName="device 1"
+deviceName="device 1" #Name of the device 
 DeviceID=GetDeviceID(deviceName)
 if DeviceID!=None:
     status=JobQueue(DeviceID,False)
