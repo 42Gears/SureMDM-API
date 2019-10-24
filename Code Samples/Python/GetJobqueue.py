@@ -60,7 +60,7 @@ def GetJobQueue(deviceID,bShowAll):
     return response.text
 
 # Main starts
-deviceName="device 1"
+deviceName="device 1" #name of the device
 DeviceID=GetDeviceID(deviceName)
 if DeviceID!=None:
     status=GetJobQueue(DeviceID,False)

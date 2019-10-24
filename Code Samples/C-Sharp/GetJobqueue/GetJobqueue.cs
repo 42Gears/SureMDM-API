@@ -20,7 +20,7 @@ namespace GetJobqueue
     {
         static void Main(string[] args)
         {
-            string deviceName = "Device 1";     // Name of the device on which job will be applied
+            string deviceName = "Device 1";     // Name of the device 
             string DeviceID = GetDeviceID(deviceName);
             if (DeviceID != null)
             {
