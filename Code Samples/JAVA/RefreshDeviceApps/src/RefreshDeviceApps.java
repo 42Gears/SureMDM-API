@@ -22,7 +22,7 @@ public class RefreshDeviceApps
 
     public static void main(String[] args) throws Exception
     {
-	String deviceName = "device 1"; // Name of the device on which job will be applied
+	String deviceName = "device 1"; // Name of the device 
 	String DeviceID = GetDeviceID(deviceName);
 	if (DeviceID != null)
 	{
