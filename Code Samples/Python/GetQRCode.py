@@ -4,10 +4,10 @@ import requests
 import json
 import base64
 
-baseurl = "http://suremdm.42gears.com/api"  # BaseURL of SureMDM
-Username = "Username"
-Password = "Password"
-ApiKey = "Your ApiKey"
+baseurl = "<baseURL>"  # BaseURL of SureMDM
+Username = "<your-username>"
+Password = "<your-password>"
+ApiKey = "<your-apikey>"
 
 # method to get group ID
 def GetGroupID(groupName):

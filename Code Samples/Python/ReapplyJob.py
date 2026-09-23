@@ -2,10 +2,10 @@
 
 import requests,json
 
-baseurl="https://suremdm.42gears.com/api"  # BaseURL of SureMDM
-Username="Username" # Your SureMDM username
-Password="Password" # Your SureMDM password
-ApiKey="Your ApiKey" # Your SureMDM apikey
+baseurl="<baseURL>"  # BaseURL of SureMDM
+Username="<your-username>" # Your SureMDM username
+Password="<your-password>" # Your SureMDM password
+ApiKey="<your-apikey>" # Your SureMDM apikey
 
 # Method for getting device info
 def GetDeviceID(deviceName):
