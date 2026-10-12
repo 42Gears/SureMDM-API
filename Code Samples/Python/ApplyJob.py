@@ -2,10 +2,10 @@
 
 import requests,json
 
-BaseURL="https://suremdm.42gears.com"  # Your SureMDM domain
-Username="Username" # Your SureMDM username
-Password="Password" # Your SureMDM password
-ApiKey="Your ApiKey" # Your SureMDM apikey
+BaseURL="<baseURL>"  # Your SureMDM domain
+Username="<your-username>" # Your SureMDM username
+Password="<your-password>" # Your SureMDM password
+ApiKey="<your-apikey>" # Your SureMDM apikey
 
 # Function to retrieve ID of the device using 'Search device' api
 def GetDeviceID(deviceName):
@@ -127,9 +127,9 @@ def ApplyJob(deviceID,jobID):
 
 
 # Main starts
-DeviName="rajkot_elite" # Name of the device on which job will be applied
-JobName="salmantest"    # Name of the job which will bw applied
-FolderName=""           # Name of the jobfolder where the job is stored
+DeviName="<device-name>" # Name of the device on which job will be applied
+JobName="<job-name>"    # Name of the job which will bw applied
+FolderName="<folder-name>"           # Name of the jobfolder where the job is stored
 # Note: Keep FolderName empty if job is stored in root folder
 
 # Retrieve ID of the device using name of device

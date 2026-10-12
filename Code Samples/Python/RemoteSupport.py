@@ -4,10 +4,10 @@ import requests
 import json
 import base64
 
-BaseURL = "https://suremdm.42gears.com/api"  # BaseURL of SureMDM
-Username = "Username"
-Password = "Password"
-ApiKey = "Your ApiKey"
+BaseURL = "<baseURL>"  # BaseURL of SureMDM
+Username = "<your-username>"
+Password = "<your-password>"
+ApiKey = "<your-apikey>"
 
 # get device ID using device name
 def GetDeviceID(deviceName):
@@ -67,7 +67,7 @@ def GetRemoteSupportURL(deviceName):
             data = response.json()
             for device in data:
                 if device['DeviceName'] == deviceName:
-                    remoteSupporturl = "https://suremdm.42gears.com/RemoteSupport.aspx?" + "id=" + str(device["DeviceID"]) + "&name=" + str(device["DeviceName"]) + "&userid=" + str(
+                    remoteSupporturl = BaseURL + "/RemoteSupport.aspx?" + "id=" + str(device["DeviceID"]) + "&name=" + str(device["DeviceName"]) + "&userid=" + str(
                         device["UserID"]) + "&pltFrmType=" + str(device["PlatformType"]) + "&agentversion=" + str(device["AgentVersion"]) + "&perm=126,127,128,129"
                     return remoteSupporturl
     else:

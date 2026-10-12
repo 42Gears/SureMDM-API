@@ -2,10 +2,10 @@
 
 import requests,json,base64
 
-BaseURL="https://suremdm.42gears.com/api"  # BaseURL of SureMDM
-Username="Username"
-Password="Password"
-ApiKey="Your ApiKey"
+BaseURL="<baseURL>"  # BaseURL of SureMDM
+Username="<your-username>"
+Password="<your-password>"
+ApiKey="<your-apikey>"
 
 # Method for getting device info
 def GetDeviceID(deviceName):
@@ -96,8 +96,8 @@ def UninstallApp(deviceID,appName):
     return response.text
 
 #Main starts
-deviceName="device 1" # name of the device
-appName="AstroContacts" # name of the application which you want to uninstall
+deviceName="<your-device-name>" # name of the device
+appName="<your-app-name>" # name of the application which you want to uninstall
 
 DeviceID=GetDeviceID(deviceName)
 if DeviceID!=None:
